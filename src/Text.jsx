@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
-export const Home = () => {
+export const Text = () => {
   return (
     <div>
-      Home
-      <Link to="/text">Go to text
+      Text
+      <Link to="/">Go to home
       </Link>
     </div>
   )
